@@ -1,4 +1,4 @@
-import api
+import app
 import pytest
 
 prod_list = {"americano": 75.0,
@@ -7,7 +7,7 @@ prod_list = {"americano": 75.0,
              "macchiato": 75.0,
              "the nero": 60.0}
 
-bar = api.FizzBar()
+bar = app.FizzBar()
 
 
 def test_product_that_exists():
