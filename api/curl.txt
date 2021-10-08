@@ -1,0 +1,5 @@
+curl --header "Content-Type: application/json" --request POST --data '{"data":["espresso","americano"]}' localhost:5000/api/checkout/
+
+curl --header "Content-Type: application/json" --request POST --data '{"data":["beer"]}' localhost:5000/api/checkout/
+
+curl localhost:5000/api/products/
