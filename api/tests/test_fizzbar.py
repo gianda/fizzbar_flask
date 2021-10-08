@@ -1,4 +1,4 @@
-import app
+from api.app import app
 import pytest
 
 prod_list = {"americano": 75.0,
